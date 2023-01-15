@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(225, 100%, 94%);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.center {
+  border: 1px none solid;
+  background: hsl(0, 0%, 100%);
+  display: grid;
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-top: 5vh;
+}
+
+.contents {
+  display: grid;
+  gap: 28px;
+  padding: 3rem;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  background: hsl(225, 100%, 98%);
+  font-weight: 900;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.heading {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.paragraph {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.plan {
+  margin-left: -30px;
+  text-align: left;
+}
+
+.plan-change {
+  align-self: center;
+  font-weight: 800;
+}
+
+.plan-change:active {
+  text-decoration: none;
+  color: hsla(245, 73%, 53%, 0.726);
+}
+
+.plan-type {
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 8px;
+}
+
+.pay {
+  background: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 10px 8px 28px rgb(143, 143, 143);
+}
+
+.pay:active {
+  background: hsla(245, 73%, 53%, 0.726);
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  background: hsl(0, 0%, 100%);
+  border: none;
+  font-weight: 700;
+}
+
+.cancel:active {
+  color: black;
+}
+
+.image {
+  border-radius: 15px 15px 0 0;
+}
